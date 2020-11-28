@@ -1,5 +1,9 @@
-#WordRecommender to diversify crowdsourced paraphrases
+# WordRecommender to diversify crowdsourced paraphrases
 
+## How to Run
+
+
+## Further Information
 Please refer to  and cite the following article:
 
 ```
