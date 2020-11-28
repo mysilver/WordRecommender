@@ -1,10 +1,12 @@
 ## WordRecommender to diversify crowdsourced paraphrases
 
 ### How to Run
+- Required Services
+--
 - You can run "canonical utterance generator" as a service:
 ```shell script
 pip3 install -r requirements.txt
-python3 rest/restapi.py 8080
+python3 word_recommender.py
 ```
 
 ### Further Information
