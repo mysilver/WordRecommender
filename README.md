@@ -4,12 +4,17 @@
 - Required Services
 
 (1) Running languagetool as a service.
-Download (lanuguage tool)[https://languagetool.org/download/] ans run the following command in bash
+Download lanuguage tool [https://languagetool.org/download/] ans run the following command in bash
 ```
 nohup java -cp LanguageTool-4.2-SNAPSHOT/languagetool-server.jar org.languagetool.server.HTTPServer --port 5004 &
 ```
 
-- You can run "canonical utterance generator" as a service:
+(2) Download "GoogleNews-vectors-negative300.bin" [https://github.com/mmihaltz/word2vec-GoogleNews-vectors] and put it in the root directory of the project. Next, run the follwoing bash command
+```
+nohup python3.5 word2vec_serivce.py &
+```
+
+(3) You can run "canonical utterance generator" as a service:
 ```shell script
 pip3 install -r requirements.txt
 python3 word_recommender.py
