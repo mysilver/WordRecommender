@@ -1,18 +1,31 @@
+#WordRecommender to diversify crowdsourced paraphrases
+
 Please refer to  and cite the following article:
 
-@inproceedings{mine_naacl2019,
-    title = "A Study of Incorrect Paraphrases in Crowdsourced User Utterances",
-    author = "Yaghoub-Zadeh-Fard, Mohammad-Ali  and
-      Benatallah, Boualem  and
-      Chai Barukh, Moshe  and
-      Zamanirad, Shayan",
-    booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
-    month = jun,
-    year = "2019",
-    address = "Minneapolis, Minnesota",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/N19-1026",
-    doi = "10.18653/v1/N19-1026",
-    pages = "295--306",
-    abstract = "Developing bots demands highquality training samples, typically in the form of user utterances and their associated intents. Given the fuzzy nature of human language, such datasets ideally must cover all possible utterances of each single intent. Crowdsourcing has widely been used to collect such inclusive datasets by paraphrasing an initial utterance. However, the quality of this approach often suffers from various issues, particularly language errors produced by unqualified crowd workers. More so, since workers are tasked to write open-ended text, it is very challenging to automatically asses the quality of paraphrased utterances. In this paper, we investigate common crowdsourced paraphrasing issues, and propose an annotated dataset called Para-Quality, for detecting the quality issues. We also investigate existing tools and services to provide baselines for detecting each category of issues. In all, this work presents a data-driven view of incorrect paraphrases during the bot development process, and we pave the way towards automatic detection of unqualified paraphrases.",
+```
+@inproceedings{mine_iui_2020,
+author    = {Mohammad{-}Ali Yaghoub{-}Zadeh{-}Fard and
+               Boualem Benatallah and
+               Fabio Casati and
+               Moshe Chai Barukh and
+               Shayan Zamanirad},
+  editor    = {Fabio Patern{\`{o}} and
+               Nuria Oliver and
+               Cristina Conati and
+               Lucio Davide Spano and
+               Nava Tintarev},
+  title     = {Dynamic word recommendation to obtain diverse crowdsourced paraphrases
+               of user utterances},
+  booktitle = {{IUI} '20: 25th International Conference on Intelligent User Interfaces,
+               Cagliari, Italy, March 17-20, 2020},
+  pages     = {55--66},
+  publisher = {{ACM}},
+  year      = {2020},
+  url       = {https://doi.org/10.1145/3377325.3377486},
+  doi       = {10.1145/3377325.3377486},
+  timestamp = {Fri, 06 Mar 2020 14:10:34 +0100},
+  biburl    = {https://dblp.org/rec/conf/iui/Yaghoub-Zadeh-Fard20.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
+
+```
