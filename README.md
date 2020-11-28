@@ -1,7 +1,6 @@
 ## WordRecommender to diversify crowdsourced paraphrases
 
 ### How to Run
-- Required Services
 
 (1) Running languagetool as a service.
 Download lanuguage tool [https://languagetool.org/download/] ans run the following command in bash
