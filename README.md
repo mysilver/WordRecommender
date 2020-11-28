@@ -2,7 +2,13 @@
 
 ### How to Run
 - Required Services
--- dd
+
+(1) Running languagetool as a service.
+Download (lanuguage tool)[https://languagetool.org/download/] ans run the following command in bash
+```
+nohup java -cp LanguageTool-4.2-SNAPSHOT/languagetool-server.jar org.languagetool.server.HTTPServer --port 5004 &
+```
+
 - You can run "canonical utterance generator" as a service:
 ```shell script
 pip3 install -r requirements.txt
