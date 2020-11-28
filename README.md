@@ -2,7 +2,7 @@
 
 ### How to Run
 - Required Services
---
+-- dd
 - You can run "canonical utterance generator" as a service:
 ```shell script
 pip3 install -r requirements.txt
